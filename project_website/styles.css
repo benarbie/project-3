@@ -1,0 +1,136 @@
+body {
+    text-align: center;
+    background: linear-gradient(rgb(235, 215, 189), rgb(94, 67, 33), burlywood);
+    height: 110vh;
+}
+h1 {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+    
+}
+p {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: -50px;
+    font-size: 20px;
+}
+table {
+    margin: 0 auto;
+    margin-top: 50px;
+}
+fieldset {
+    margin: 100px auto;
+    max-width: 500px;
+    border-width: 0px;
+    border-color: black ;
+}
+table input, table label, textarea, select {
+    display:block;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 10px;
+    font-size: 30px;
+}
+table label {
+    text-align: left;
+}
+input {
+    background-color: rgb(248, 231, 209);
+}
+input[type='radio'] {
+    font-size: 40px;
+}
+#age {
+    margin-left: 0;
+    max-width: 5em;
+}
+.gender label{
+    display: block;
+    font-size: 25px;
+}
+.gender {
+    text-align: left;
+    max-width: 50%;
+    font-size: 30px;
+    margin: -100px auto;
+    margin-left: 145px;
+}
+.role {
+    font-size: 25px;
+    text-align: left; 
+}
+select {
+    background-color: rgb(230, 204, 170);
+    display: block;
+    cursor: pointer;
+}
+select:hover {
+    background-color: rgb(189, 161, 124);
+    color: white;
+}
+textarea {
+    background-color: rgb(248, 231, 209);
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: -110px;
+    max-width: 400px;
+}
+legend {
+    font-size: 30px;
+    margin: 0 auto;
+    margin-left: 70px;
+}
+.resume {
+    font-size: 30px;
+    text-align: left;
+    margin-top: -100px;
+}
+label[for='resume'] {
+    margin: 0 auto;
+    margin-left: 70px;
+}
+#resume {
+    font-size: 22px;
+    margin: 0 auto;
+    margin-bottom: -100px;
+    display: block;
+    width: 72%;
+    border: 2px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+    
+}
+input[type='submit'] {
+    font-size: 30px;
+    margin: 20px auto;
+    background-color: rgb(168, 121, 93);
+    border-radius: 10px;
+    color: white;
+    box-shadow: 1px 1px 20px 1px;
+    transition: transform 0.2s;
+    cursor: pointer;
+}
+input[type='submit']:hover {
+    transform: scale(1.2);
+}
+div {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: burlywood;
+    height: 85%;
+    max-width: 700px;
+    margin: 0 auto;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px 5px;
+}
+.info-title {
+    text-align: left;
+    margin-left: 160px;
+    font-size: 16px;
+}
+#info-title {
+    font-size: 30px;
+    display: block;
+}
+input[type="number"] {
+    -moz-appearance: textfield;
+}

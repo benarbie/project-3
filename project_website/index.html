@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Best Tech - Job Application</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <h1 id="title">Best Tech - Job Application</h1>
+        <p id="description">Welcome to the Best Tech job applications.<br>please fill out the form as needed.</p>
+        <div>
+            <form id="survey-form">
+                <fieldset>
+                    <table>
+                        <tr>
+                            <td>
+                                <label for="first-name">First Name: <input required type="text" id="first-name"></label> 
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="last-name"> Last Name: <input required type="text" id="last-name"></label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="age"> Age: <input required min='18' max='99' type="number" id="age" onkeypress="return event.charCode >= 48 && event.charCode <= 57"></label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="email"> Email: <input required type="email" id="email"></label> 
+                            </td>
+                        </tr>
+                    </table>
+                    
+                </fieldset>
+                <fieldset class="gender">Gender:
+                    <label for="male"><input name="gender" type="radio" id="male" checked> Male</label> 
+                    <label for="female"><input name="gender" type="radio" id="female"> Female</label>
+                    <label for="no-gender"><input name="gender" type="radio" id="no-gender"> Rather not specify</label>
+                </fieldset>
+                <fieldset class="role">
+                    <legend>Role:</legend>
+                        <label for="role">
+                            <select id="role">
+                                <option>(select one)</option>
+                                <option>Software Engineer</option>
+                                <option>Web Developer</option>
+                                <option>Data Analyst</option>
+                                <option>Electric Engineer</option>
+                                <option>Senior Software Engineer</option>
+                                <option>Senior Web Developer</option>
+                            </select>
+                        </label>
+                </fieldset>
+                <fieldset class="resume">
+                    <label for="resume">Resume<input required type="file" id="resume"></label>
+                </fieldset>
+                <fieldset class="info-title">
+                    <label>(optional)</label>
+                    <label id='info-title'>Extra Information:</label>
+                </fieldset>
+                <fieldset>
+                    <textarea id="info" rows="3" cols="45">
+                    </textarea> 
+                    <input type="submit" value="Submit">
+                </fieldset>
+            </form>
+        </div>
+    </body>
+</html>
